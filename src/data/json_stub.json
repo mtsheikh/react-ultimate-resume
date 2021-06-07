@@ -1,379 +1,488 @@
 {
-    "basics": {
-        "name": "Muhammad Taha Sheikh",
-        "label": "Programmer",
-        "picture": "",
-        "email": "john.doe@mail.com",
-        "phone": "(912) 555-4321",
-        "website": "http://johndoe.com",
-        "summary": "A summary of John Doe...",
-        "location": {
-            "address": "2712 Broadway St",
-            "postalCode": "CA 94115",
-            "city": "San Francisco",
-            "countryCode": "US",
-            "region": "California"
-        },
-        "profiles": [{
-            "network": "Twitter",
-            "username": "john",
-            "url": "http://twitter.com/john"
-        }]
-    },
-    "work": [{
-        "name": "Samsung Engineering",
-        "position": "3D Cad Engineer",
-        "website": "http://company.com",
-        "startDate": "2014-01-01",
-        "summary": "Description...",
-        "location": "Paris, France",
-        "highlights": ["Started the company"]
-    }, {
-        "name": "What a nice office",
-        "position": "President",
-        "website": "http://company.com",
-        "startDate": "2013-01-01",
-        "endDate": "2014-01-01",
-        "summary": "Description...",
-        "location": "Paris, France",
-        "highlights": ["Started the company"]
-    }, {
-        "name": "What a nice experience",
-        "position": "Lead dev",
-        "website": "http://company.com",
-        "summary": "Description...",
-        "location": "Paris, France",
-        "highlights": ["Started the company"]
-    }],
-    "volunteer": [{
-        "organization": "Organization",
-        "position": "Volunteer",
-        "website": "http://organization.com/",
-        "endDate": "2013-01-01",
-        "summary": "Description...",
-        "highlights": ["Awarded 'Volunteer of the Month'"]
-    }],
-    "education": [{
-        "institution": "ISEN",
-        "area": "Software Development",
-        "studyType": "Engineer Degree",
-        "startDate": "2011-01-01",
-        "endDate": "2013-01-01",
-        "gpa": "4.0",
-        "courses": ["DB1101 - Basic SQL"]
-    }, {
-        "institution": "Université d'artois",
-        "area": "",
-        "studyType": "",
-        "startDate": "2011-01-01",
-        "endDate": "",
-        "gpa": "4.0",
-        "courses": ["DB1101 - Basic SQL"]
-    }],
-    "awards": [{
-        "title": "Award",
-        "date": "2014-11-01",
-        "awarder": "Company",
-        "summary": "There is no spoon."
-    }],
-    "publications": [{
-        "name": "Publication",
-        "publisher": "Company",
-        "releaseDate": "2014-10-01",
-        "website": "http://publication.com",
-        "summary": "Description..."
-    }],
-    "skills": [{
-        "name": "React",
-        "level": "Master",
-        "value": 100,
-        "keywords": ["HTML", "CSS", "Javascript"]
-    }, {
-        "name": "Angular",
-        "level": "Master",
-        "value": 80,
-        "keywords": ["HTML", "CSS", "Javascript"]
-    }, {
-        "name": "NodeJS",
-        "level": "Master",
-        "value": 40,
-        "keywords": ["HTML", "CSS", "Javascript"]
-    }, {
-        "name": "Firebase",
-        "level": "Master",
-        "value": 60,
-        "keywords": ["HTML", "CSS", "Javascript"]
-    }, {
-        "name": "Gmail",
-        "level": "Master",
-        "value": 20,
-        "keywords": ["HTML", "CSS", "Javascript"]
-    }, {
-        "name": "K8S",
-        "level": "Master",
-        "value": 80,
-        "keywords": ["HTML", "CSS", "Javascript"]
-    }],
-    "languages": [{
-        "language": "English",
-        "value": 100,
-        "fluency": "Native speaker",
-        "id": "96ea6792-dd67-4038-ba4e-603cacacd44e",
-        "index": 0
-    }, {
-        "index": 1,
-        "id": "fc99e42d-0011-4e85-b7ec-e441243c0c5f",
-        "language": "Urdu",
-        "value": 80
-    }, {
-        "index": 2,
-        "id": "54f4d54c-494f-4441-9e29-08cd9ee3c5ba",
-        "language": "Hindi",
-        "value": 68
-    }],
-    "interests": [{
-        "name": "France europe gif by nike football",
-        "gifUrl": "https://media1.giphy.com/media/3oD3YooLLYg0AfOPdK/giphy-downsized.gif?cid=f7fb5bbaegu1ofs48lty41dyowqsfo0wq9qq8h4czot7rwm1&rid=giphy-downsized.gif",
-        "id": "afa5739f-f868-464e-a1aa-18f5a3ff4e2b",
-        "gifUser": {
-            "name": "Nike Football",
-            "profileUrl": "https://giphy.com/nikefootball/",
-            "isVerified": true,
-            "profileAvatarUrl": "https://media1.giphy.com/avatars/nikefootball/vPyZcrShcXY8.jpg"
-        }
-    }, {
-        "name": "Burritos",
-        "gifUrl": "https://media.giphy.com/media/d8WjGORtSEWqc/giphy.gif"
-    }, {
-        "name": "Tendresse",
-        "gifUrl": "https://media.giphy.com/media/EehnUUCH2JcwU/giphy.gif"
-    }, {
-        "name": "Something",
-        "gifUrl": "https://media.giphy.com/media/xTiTnIuKP1BLsMTerS/giphy.gif"
-    }, {
-        "name": "J'aime faire de la course à pied et des randonnées en famille le weekend."
-    }],
-    "references": [{
-        "name": "Jane Doe",
-        "reference": "Reference..."
-    }],
-    "projects": [{
-        "index": 5,
-        "date": {
-            "month": 11,
-            "year": 2019
-        },
-        "description": "Moteur de recherche via le nom de films réalisée avec ReactJs:\nRequête à l'Api rest avec Fetch, utilisation des hooks.\n",
-        "id": "7f1f4257-e5db-477d-aa5f-ababe0ab0b12",
-        "images": [{
-            "url": "https://cdn.filestackcontent.com/aBOkTTkCQ66VOHUy0q8L"
-        }],
-        "link": "https://lovely-movie.netlify.app/",
-        "name": "Lovely Movie",
-        "endDate": "2019-12-01"
-    }, {
-        "index": 2,
-        "date": {
-            "month": 0,
-            "year": 2020
-        },
-        "description": "Application de gestion de tâches réalisée avec ReactJs / Redux / Firebase :\nCréation de composants avec Styled Components, gestions de formulaires et validation des entrées, création d'une authentification, récupération / création / modification / suppression de tâches.",
-        "id": "af4181b1-8955-47fb-8dd9-17c6974335d3",
-        "images": [{
-            "url": "https://cdn.filestackcontent.com/G2CckiqvScC9tsrvHYg4"
-        }],
-        "link": "https://diary-todo.netlify.app/",
-        "name": "Journal d'une Todo",
-        "endDate": "2020-01-01"
-    }, {
-        "index": 4,
-        "date": {
-            "month": 5,
-            "year": 2020
-        },
-        "description": "Blog réalisé en Java JEE et Spring, avec création d'une base de données MySQL et connectée avec JDBC.",
-        "id": "af8c78c3-f7c6-4f3b-9c32-9d37a9032e14",
-        "images": [{
-            "url": "https://cdn.filestackcontent.com/rPp0wj4S2GhTr0qTcqOI"
-        }],
-        "link": "https://btz-java-2003-pjt1-blog.javarover.wilders.dev/",
-        "name": "Charlie's Angels blog",
-        "endDate": "2020-06-01"
-    }, {
-        "index": 3,
-        "date": {
-            "month": 5,
-            "year": 2020
-        },
-        "description": "** Pensée uniquement pour téléphone **\nApplication permettant de connaître la météo actuelle d'une ville. Réalisée afin de découvrir VueJs.",
-        "id": "c64e6ca1-6300-4d7f-a305-8cfb7c99a9e6",
-        "images": [{
-            "url": "https://cdn.filestackcontent.com/w5oskUihSiYCxekOn9Ba"
-        }],
-        "link": "https://appli-meteo.netlify.app/",
-        "name": "Application Météo",
-        "endDate": "2020-06-01"
-    }, {
-        "index": 1,
-        "date": {
-            "month": 7,
-            "year": 2020
-        },
-        "description": "Premières armes avec Angular et Typescript :\nMise en place d'un environnement Angular, développement d'une authentification avec Firebase, gestion des formulaires, utilisation d'observable avec RxJs.\n",
-        "id": "d9f7ca32-a40a-418e-affb-317bfb4f520e",
-        "images": [{
-            "url": "https://cdn.filestackcontent.com/NVOhKNFQR9OQ3jtkIyHi"
-        }],
-        "link": "https://my-connected-library.netlify.app/",
-        "name": "Librairie Connectée",
-        "endDate": "2020-08-01"
-    }, {
-        "index": 6,
-        "date": {
-            "month": 4,
-            "year": 2019
-        },
-        "description": "Moteur de recherche basé sur le jeu World of Warcraft, premiers pas avec ReatJs.\nRequête à l'API Raider.io avec Axios.",
-        "id": "dbe2a8d9-dd9d-443d-8ae4-7a8e0b7939f5",
-        "images": [{
-            "url": "https://cdn.filestackcontent.com/FSysoX0ATvqy2BFvLF21"
-        }],
-        "link": "https://wow-search-engine.netlify.app/",
-        "name": "WoW Search",
-        "endDate": "2019-05-01"
-    }, {
-        "index": 0,
-        "date": {
-            "month": 6,
-            "year": 2020
-        },
-        "description": "Application réalisée en 24h (challenge de formation) avec Java JEE et Spring:\nGestion d’un CRUD, création d'une API Rest, ajout d'un environnement de production avec une base de données PostgreSQL hébergée sur Heroku.",
-        "id": "ffb8a4f2-24e6-44ef-bbe7-0593b86d40be",
-        "images": [{
-            "url": "https://cdn.filestackcontent.com/7XpHKtFTC2VynppurrK5"
-        }],
-        "link": "https://your-todos-list.herokuapp.com/",
-        "name": "Your Todo List",
-        "endDate": "2020-07-01"
-    }],
-    "specific": {
-        "basics": {
-            "visaSponsorship": true,
-            "personalDescription": "This is a longer description of me, of my backstory, my backyard, my backfire, my backend, my frontend and my friends."
-        },
-        "dreamJob": {
-            "locations": [{
-                "name": "Valenciennes, France"
-            }, {
-                "name": "Lille, France"
-            }, {
-                "name": "Paris,France"
-            }],
-            "remoteFrequency": "regularly"
-        },
-        "currentJob": {
-            "issues": {
-                "boring_management": true,
-                "boring_team": true
+   "basics":{
+      "name":"Muhammad Taha Sheikh",
+      "label":"Software Engineer",
+      "picture":"https://avatars.githubusercontent.com/u/10469416?v=4",
+      "email":"mtsheikh1994@gmail.com",
+      "phone":"(306) 201-5318",
+      "website":"https://mtsheikh.github.io/react-ultimate-resume/",
+      "summary":"A summary of John Doe...",
+      "location":{
+         "address":"22110 89 Ave NW",
+         "postalCode":"T5T 7G9",
+         "city":"Edmonton, CA",
+         "countryCode":"CA",
+         "region":"Alberta",
+         "name":"Edmonton, CA"
+      },
+      "profiles":[
+         {
+            "network":"Linkedin",
+            "username":"mtsheikh",
+            "url":"https://www.linkedin.com/in/mtsheikh/"
+         }
+      ]
+   },
+   "work":[
+      {
+         "name":"Samsung Engineering",
+         "position":"3D Cad Engineer",
+         "website":"http://company.com",
+         "startDate":"2014-01-01",
+         "summary":"Description...",
+         "location":"Paris, France",
+         "highlights":[
+            "Started the company"
+         ]
+      },
+      {
+         "name":"What a nice office",
+         "position":"President",
+         "website":"http://company.com",
+         "startDate":"2013-01-01",
+         "endDate":"2014-01-01",
+         "summary":"Description...",
+         "location":"Paris, France",
+         "highlights":[
+            "Started the company"
+         ]
+      },
+      {
+         "name":"What a nice experience",
+         "position":"Lead dev",
+         "website":"http://company.com",
+         "summary":"Description...",
+         "location":"Paris, France",
+         "highlights":[
+            "Started the company"
+         ]
+      }
+   ],
+   "volunteer":[
+      {
+         "organization":"Organization",
+         "position":"Volunteer",
+         "website":"http://organization.com/",
+         "endDate":"2013-01-01",
+         "summary":"Description...",
+         "highlights":[
+            "Awarded 'Volunteer of the Month'"
+         ]
+      }
+   ],
+   "education":[
+      {
+         "position":0,
+         "id":"ae5b0da7-03f4-4c94-8737-aefed50f7bfc",
+         "studyType":"Computer Engineering Technology Diploma",
+         "endDate":"2016-01-01",
+         "institution":"Northern Alberta Institute of Technology",
+         "area":"IT"
+      },
+      {
+         "position":1,
+         "id":"9d128c32-d956-4ede-927e-e75426a72960",
+         "institution":"Northern Alberta Institute of Technology",
+         "studyType":"Bachelors of Applied Information Systems Technology",
+         "endDate":"2021-01-01",
+         "area":"IT"
+      }
+   ],
+   "awards":[
+      {
+         "title":"Award",
+         "date":"2014-11-01",
+         "awarder":"Company",
+         "summary":"There is no spoon."
+      }
+   ],
+   "publications":[
+      {
+         "name":"Publication",
+         "publisher":"Company",
+         "releaseDate":"2014-10-01",
+         "website":"http://publication.com",
+         "summary":"Description..."
+      }
+   ],
+   "skills":[
+      {
+         "name":"React",
+         "level":"Master",
+         "value":57,
+         "keywords":[
+            "HTML",
+            "CSS",
+            "Javascript"
+         ],
+         "index":0,
+         "id":"3992c66e-de5f-46a7-a91e-920eb23853c1"
+      },
+      {
+         "name":"C#",
+         "index":1,
+         "value":89,
+         "id":"23600aa0-c1ec-45e0-ae31-40a58d732b07"
+      },
+      {
+         "name":"T-SQL",
+         "index":2,
+         "value":77,
+         "id":"7e9cf5ac-faa1-4841-a144-1f1e27c0e96f"
+      },
+      {
+         "name":"Github",
+         "index":3,
+         "value":75,
+         "id":"9fd8631d-4f60-4054-8396-5e940a2a3bff"
+      },
+      {
+         "name":"Docker",
+         "index":4,
+         "value":57,
+         "id":"c0f70ebd-4179-4f02-9711-d4ca61b11877"
+      },
+      {
+         "name":"Dot-net",
+         "index":5,
+         "value":73,
+         "id":"3f6f1b16-5040-4517-9c2c-f3a58bb50659"
+      },
+      {
+         "name":"PostgreSQL",
+         "index":6,
+         "value":65,
+         "id":"a5c49dd4-6b78-4302-9eff-ef782b02ad16"
+      },
+      {
+         "name":"Apache Airflow",
+         "index":7,
+         "value":38,
+         "id":"4baf973d-2771-4087-996d-96ea7e4e2b3e"
+      },
+      {
+         "name":"Power BI",
+         "index":8,
+         "value":67,
+         "id":"e0d8efc7-91db-4270-8445-02bdb901c2fc"
+      },
+      {
+         "name":"Python",
+         "index":9,
+         "value":74,
+         "id":"db31d8a0-5c30-4d68-ad10-d553521d5eaf"
+      }
+   ],
+   "languages":[
+      {
+         "language":"English",
+         "value":100,
+         "fluency":"Native speaker",
+         "id":"96ea6792-dd67-4038-ba4e-603cacacd44e",
+         "index":0
+      },
+      {
+         "index":1,
+         "id":"fc99e42d-0011-4e85-b7ec-e441243c0c5f",
+         "language":"Urdu",
+         "value":80
+      },
+      {
+         "index":2,
+         "id":"54f4d54c-494f-4441-9e29-08cd9ee3c5ba",
+         "language":"Hindi",
+         "value":68
+      }
+   ],
+   "interests":[
+      {
+         "name":"France europe gif by nike football",
+         "gifUrl":"https://media1.giphy.com/media/3oD3YooLLYg0AfOPdK/giphy-downsized.gif?cid=f7fb5bbaegu1ofs48lty41dyowqsfo0wq9qq8h4czot7rwm1&rid=giphy-downsized.gif",
+         "id":"afa5739f-f868-464e-a1aa-18f5a3ff4e2b",
+         "gifUser":{
+            "name":"Nike Football",
+            "profileUrl":"https://giphy.com/nikefootball/",
+            "isVerified":true,
+            "profileAvatarUrl":"https://media1.giphy.com/avatars/nikefootball/vPyZcrShcXY8.jpg"
+         }
+      },
+      {
+         "name":"Burritos",
+         "gifUrl":"https://media.giphy.com/media/d8WjGORtSEWqc/giphy.gif"
+      },
+      {
+         "name":"Tendresse",
+         "gifUrl":"https://media.giphy.com/media/EehnUUCH2JcwU/giphy.gif"
+      },
+      {
+         "name":"Something",
+         "gifUrl":"https://media.giphy.com/media/xTiTnIuKP1BLsMTerS/giphy.gif"
+      },
+      {
+         "name":"J'aime faire de la course à pied et des randonnées en famille le weekend."
+      }
+   ],
+   "references":[
+      {
+         "name":"Jane Doe",
+         "reference":"Reference..."
+      }
+   ],
+   "projects":[
+      {
+         "index":5,
+         "date":{
+            "month":11,
+            "year":2019
+         },
+         "description":"Moteur de recherche via le nom de films réalisée avec ReactJs:\nRequête à l'Api rest avec Fetch, utilisation des hooks.\n",
+         "id":"7f1f4257-e5db-477d-aa5f-ababe0ab0b12",
+         "images":[
+            {
+               "url":"https://cdn.filestackcontent.com/aBOkTTkCQ66VOHUy0q8L"
             }
-        },
-        "education": {
-            "studiesLevel": 5
-        },
-        "work": {
-            "contractTypes": ["permanent"],
-            "codingYears": 7,
-            "codingReason": "J'ai commencé à coder sur Amstrad dans ma cave et je n'ai jamais arrêté depuis",
-            "searchState": "activelySearching",
-            "experienceYears": 0,
-            "codeExperienceYears": 1,
-            "otherExperienceYears": 1
-        },
-        "sound": {
-            "embedUrl": "https://open.spotify.com/embed/playlist/37i9dQZF1DWWl7MndYYxge"
-        },
-        "interestedBy": "Angular, la blochain et les chatons."
-    },
-    "resumeCustomization": {
-        "imageHeader": null,
-        "cardsOrder": [{
-            "type": "basics",
-            "variant": 4
-        }, {
-            "type": "projects",
-            "variant": 4
-        }, {
-            "type": "skills",
-            "variant": 0
-        }, {
-            "type": "dreamjob",
-            "variant": 4
-        }, {
-            "type": "experiences",
-            "variant": 4
-        }, {
-            "type": "studies",
-            "variant": 4
-        }, {
-            "type": "gifs",
-            "variant": 0
-        }, {
-            "type": "interestedBy",
-            "variant": 3
-        }, {
-            "type": "language",
-            "variant": 4
-        }, {
-            "type": "soundtrack",
-            "variant": 4
-        }],
-        "fields": {
-            "work": {
-                "customDateFormat": "YYYY"
+         ],
+         "link":"https://lovely-movie.netlify.app/",
+         "name":"Lovely Movie",
+         "endDate":"2019-12-01"
+      },
+      {
+         "index":2,
+         "date":{
+            "month":0,
+            "year":2020
+         },
+         "description":"Application de gestion de tâches réalisée avec ReactJs / Redux / Firebase :\nCréation de composants avec Styled Components, gestions de formulaires et validation des entrées, création d'une authentification, récupération / création / modification / suppression de tâches.",
+         "id":"af4181b1-8955-47fb-8dd9-17c6974335d3",
+         "images":[
+            {
+               "url":"https://cdn.filestackcontent.com/G2CckiqvScC9tsrvHYg4"
             }
-        },
-        "theme": {
-            "palette": {
-                "primary": {
-                    "50": "#e6e6e6",
-                    "100": "#cccccc",
-                    "200": "#999999",
-                    "300": "#666666",
-                    "400": "#333333",
-                    "500": "#000000",
-                    "600": "#000000",
-                    "700": "#000000",
-                    "800": "#000000",
-                    "900": "#000000",
-                    "contrastDefaultColor": "light"
-                },
-                "secondary": {
-                    "50": "#f5e7e8",
-                    "100": "#eccfd1",
-                    "200": "#d9a0a4",
-                    "300": "#c57076",
-                    "400": "#b24149",
-                    "500": "#9f111b",
-                    "600": "#7f0e16",
-                    "700": "#5f0a10",
-                    "800": "#40070b",
-                    "900": "#200305",
-                    "contrastDefaultColor": "light"
-                },
-                "tertiary": {
-                    "50": "#f7e8e9",
-                    "100": "#efd0d3",
-                    "200": "#e0a2a7",
-                    "300": "#d0737b",
-                    "400": "#c1454f",
-                    "500": "#b11623",
-                    "600": "#8e121c",
-                    "700": "#6a0d15",
-                    "800": "#47090e",
-                    "900": "#230407",
-                    "contrastDefaultColor": "light"
-                }
+         ],
+         "link":"https://diary-todo.netlify.app/",
+         "name":"Journal d'une Todo",
+         "endDate":"2020-01-01"
+      },
+      {
+         "index":4,
+         "date":{
+            "month":5,
+            "year":2020
+         },
+         "description":"Blog réalisé en Java JEE et Spring, avec création d'une base de données MySQL et connectée avec JDBC.",
+         "id":"af8c78c3-f7c6-4f3b-9c32-9d37a9032e14",
+         "images":[
+            {
+               "url":"https://cdn.filestackcontent.com/rPp0wj4S2GhTr0qTcqOI"
             }
-        }
-    }
+         ],
+         "link":"https://btz-java-2003-pjt1-blog.javarover.wilders.dev/",
+         "name":"Charlie's Angels blog",
+         "endDate":"2020-06-01"
+      },
+      {
+         "index":3,
+         "date":{
+            "month":5,
+            "year":2020
+         },
+         "description":"** Pensée uniquement pour téléphone **\nApplication permettant de connaître la météo actuelle d'une ville. Réalisée afin de découvrir VueJs.",
+         "id":"c64e6ca1-6300-4d7f-a305-8cfb7c99a9e6",
+         "images":[
+            {
+               "url":"https://cdn.filestackcontent.com/w5oskUihSiYCxekOn9Ba"
+            }
+         ],
+         "link":"https://appli-meteo.netlify.app/",
+         "name":"Application Météo",
+         "endDate":"2020-06-01"
+      },
+      {
+         "index":1,
+         "date":{
+            "month":7,
+            "year":2020
+         },
+         "description":"Premières armes avec Angular et Typescript :\nMise en place d'un environnement Angular, développement d'une authentification avec Firebase, gestion des formulaires, utilisation d'observable avec RxJs.\n",
+         "id":"d9f7ca32-a40a-418e-affb-317bfb4f520e",
+         "images":[
+            {
+               "url":"https://cdn.filestackcontent.com/NVOhKNFQR9OQ3jtkIyHi"
+            }
+         ],
+         "link":"https://my-connected-library.netlify.app/",
+         "name":"Librairie Connectée",
+         "endDate":"2020-08-01"
+      },
+      {
+         "index":6,
+         "date":{
+            "month":4,
+            "year":2019
+         },
+         "description":"Moteur de recherche basé sur le jeu World of Warcraft, premiers pas avec ReatJs.\nRequête à l'API Raider.io avec Axios.",
+         "id":"dbe2a8d9-dd9d-443d-8ae4-7a8e0b7939f5",
+         "images":[
+            {
+               "url":"https://cdn.filestackcontent.com/FSysoX0ATvqy2BFvLF21"
+            }
+         ],
+         "link":"https://wow-search-engine.netlify.app/",
+         "name":"WoW Search",
+         "endDate":"2019-05-01"
+      },
+      {
+         "index":0,
+         "date":{
+            "month":6,
+            "year":2020
+         },
+         "description":"Application réalisée en 24h (challenge de formation) avec Java JEE et Spring:\nGestion d’un CRUD, création d'une API Rest, ajout d'un environnement de production avec une base de données PostgreSQL hébergée sur Heroku.",
+         "id":"ffb8a4f2-24e6-44ef-bbe7-0593b86d40be",
+         "images":[
+            {
+               "url":"https://cdn.filestackcontent.com/7XpHKtFTC2VynppurrK5"
+            }
+         ],
+         "link":"https://your-todos-list.herokuapp.com/",
+         "name":"Your Todo List",
+         "endDate":"2020-07-01"
+      }
+   ],
+   "specific":{
+      "basics":{
+         "visaSponsorship":false,
+         "personalDescription":"This is a longer description of me, of my backstory, my backyard, my backfire, my backend, my frontend and my friends."
+      },
+      "dreamJob":{
+         "locations":[
+            {
+               "name":"Valenciennes, France"
+            },
+            {
+               "name":"Lille, France"
+            },
+            {
+               "name":"Paris,France"
+            }
+         ],
+         "remoteFrequency":"regularly"
+      },
+      "currentJob":{
+         "issues":{
+            "boring_management":true,
+            "boring_team":true
+         }
+      },
+      "education":{
+         "studiesLevel":4
+      },
+      "work":{
+         "contractTypes":[
+            "permanent"
+         ],
+         "codingYears":9,
+         "codingReason":"J'ai commencé à coder sur Amstrad dans ma cave et je n'ai jamais arrêté depuis",
+         "searchState":"openOpportunities",
+         "experienceYears":0,
+         "codeExperienceYears":3.5,
+         "otherExperienceYears":6
+      },
+      "interestedBy":"Full Stack Development and all things with Data"
+   },
+   "resumeCustomization":{
+      "imageHeader":{
+         "url":"https://images.unsplash.com/photo-1466495227171-d05d7e3ac2b3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1401&q=80"
+      },
+      "cardsOrder":[
+         {
+            "type":"basics",
+            "variant":4
+         },
+         {
+            "type":"projects",
+            "variant":4
+         },
+         {
+            "type":"skills",
+            "variant":0
+         },
+         {
+            "type":"dreamjob",
+            "variant":4
+         },
+         {
+            "type":"experiences",
+            "variant":4
+         },
+         {
+            "type":"studies",
+            "variant":4
+         },
+         {
+            "type":"gifs",
+            "variant":0
+         },
+         {
+            "type":"interestedBy",
+            "variant":3
+         },
+         {
+            "type":"language",
+            "variant":4
+         },
+         {
+            "type":"soundtrack",
+            "variant":4
+         }
+      ],
+      "fields":{
+         "work":{
+            "customDateFormat":"YYYY"
+         }
+      },
+      "theme":{
+         "palette":{
+            "primary":{
+               "50":"#e6e6e6",
+               "100":"#cccccc",
+               "200":"#999999",
+               "300":"#666666",
+               "400":"#333333",
+               "500":"#000000",
+               "600":"#000000",
+               "700":"#000000",
+               "800":"#000000",
+               "900":"#000000",
+               "contrastDefaultColor":"light"
+            },
+            "secondary":{
+               "50":"#f5e7e8",
+               "100":"#eccfd1",
+               "200":"#d9a0a4",
+               "300":"#c57076",
+               "400":"#b24149",
+               "500":"#9f111b",
+               "600":"#7f0e16",
+               "700":"#5f0a10",
+               "800":"#40070b",
+               "900":"#200305",
+               "contrastDefaultColor":"light"
+            },
+            "tertiary":{
+               "50":"#f7e8e9",
+               "100":"#efd0d3",
+               "200":"#e0a2a7",
+               "300":"#d0737b",
+               "400":"#c1454f",
+               "500":"#b11623",
+               "600":"#8e121c",
+               "700":"#6a0d15",
+               "800":"#47090e",
+               "900":"#230407",
+               "contrastDefaultColor":"light"
+            }
+         }
+      }
+   }
 }
